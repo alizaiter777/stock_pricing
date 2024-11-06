@@ -1,6 +1,4 @@
 
 
-MAX_PROFIT=[]
-STOCK_PRICE=int(input("Enter a daily stock prices : "))
+prices = list(map(int, input("Enter stock price in several days: ").split()))
 
-MAX_PROFIT.append(STOCK_PRICE)
